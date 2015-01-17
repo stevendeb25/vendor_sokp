@@ -169,7 +169,8 @@ PRODUCT_PACKAGES += \
 # Custom SOKP packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    AudioFX \
+    Trebuchet \
+    CMHome \
     CMFileManager \
     Eleven \
     LockClock \
