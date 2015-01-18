@@ -65,11 +65,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.service.enhance.enable=1 \
     ro.semc.clearaudio.supported=true \
-    persist.service.clearaudio.enable=1 \
     ro.sony.walkman.logger=1 \
     persist.service.walkman.enable=1 \
     ro.somc.clearphase.supported=true \
-    persist.service.clearphase.enable=1 \
     af.resampler.quality=255
 
 PRODUCT_PROPERTY_OVERRIDES += \
