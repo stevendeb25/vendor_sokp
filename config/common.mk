@@ -167,6 +167,8 @@ PRODUCT_PACKAGES += \
 # Custom SOKP packages
 PRODUCT_PACKAGES += \
     Launcher3 \
+    SOKPStats \
+    SonicPapers \
     Trebuchet \
     CMHome \
     CMFileManager \
