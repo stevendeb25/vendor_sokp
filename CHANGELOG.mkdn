@@ -16,7 +16,9 @@ Changelogs
 - Settings: add statusbar customizations
 - Settings: add statusbar clock customizations
 - Settings: add network speed indicator
+- Settings: add listview animations
 - Base: add statusbar customizations
 - Base: add statusbar clock customizations
 - Base: add network speed indicator
+- Base: add listview animations
 - Settings: Move notification drawer and statusbar settings to SOKP Control
