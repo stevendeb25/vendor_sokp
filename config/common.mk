@@ -241,9 +241,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/sokp/overlay/common
 
-PRODUCT_VERSION_MAJOR = 2
-PRODUCT_VERSION_MINOR = 1
-PRODUCT_VERSION_MAINTENANCE =
+PRODUCT_VERSION_MAJOR = LP5.0.2
+PRODUCT_VERSION_MINOR = 0
+PRODUCT_VERSION_MAINTENANCE = 0-RC0
 
 # Set SOKP_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
 
@@ -311,34 +311,16 @@ else
     endif
 endif
 
+SOKP_Version=RC-01-LP5.0.2-LRX22C
+SOKP_MOD_VERSION := $(SOKP_Version)-$(shell date -u +%Y%m%d)$(SOKP_EXTRAVERSION)-$(SOKP_BUILD)
+ 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.sokp.version=$(SOKP_VERSION) \
   ro.sokp.releasetype=$(SOKP_BUILDTYPE) \
-  ro.modversion=$(SOKP_VERSION) \
+  ro.modversion=$(SOKP_MOD_VERSION) \
   ro.legal.url=http://epic-os.com/?page_id=28
 
 -include vendor/sokp-priv/keys/keys.mk
-
-SOKP_DISPLAY_VERSION := $(SOKP_VERSION)
-
-ifneq ($(PRODUCT_DEFAULT_DEV_CERTIFICATE),)
-ifneq ($(PRODUCT_DEFAULT_DEV_CERTIFICATE),build/target/product/security/testkey)
-  ifneq ($(SOKP_BUILDTYPE), UNOFFICIAL)
-    ifndef TARGET_VENDOR_RELEASE_BUILD_ID
-      ifneq ($(SOKP_EXTRAVERSION),)
-        # Remove leading dash from SOKP_EXTRAVERSION
-        SOKP_EXTRAVERSION := $(shell echo $(SOKP_EXTRAVERSION) | sed 's/-//')
-        TARGET_VENDOR_RELEASE_BUILD_ID := $(SOKP_EXTRAVERSION)
-      else
-        TARGET_VENDOR_RELEASE_BUILD_ID := $(shell date -u +%Y%m%d)
-      endif
-    else
-      TARGET_VENDOR_RELEASE_BUILD_ID := $(TARGET_VENDOR_RELEASE_BUILD_ID)
-    endif
-    SOKP_DISPLAY_VERSION=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(TARGET_VENDOR_RELEASE_BUILD_ID)
-  endif
-endif
-endif
 
 # by default, do not update the recovery with system updates
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
