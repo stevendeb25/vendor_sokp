@@ -11,6 +11,7 @@ Changelogs
 - frameworks/base: Material dark ui
 - Settings: Toast animations
 - Settings: Material dark ui
+
 ===========
 # SOKP v2.0.1(Preview)
 - Settings: add statusbar customizations
