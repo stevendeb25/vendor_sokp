@@ -12,7 +12,7 @@ Changelogs
 - Settings: Toast animations
 - Settings: Material dark ui
 
-# SOKP v2.0.1(Preview)
+# SOKP v2.1(Preview)
 - Settings: add statusbar customizations
 - Settings: add statusbar clock customizations
 - Settings: add network speed indicator
