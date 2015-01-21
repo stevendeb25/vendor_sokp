@@ -333,3 +333,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
+
+# statistics identity
+  PRODUCT_PROPERTY_OVERRIDES += \
+  ro.romstats.url=http://stats.sonic-developers.com/ \
+  ro.romstats.name=SOKP \
+  ro.romstats.version=-$(SOKP_Version) \
+  ro.romstats.askfirst=0 \
+  ro.romstats.tframe=1
