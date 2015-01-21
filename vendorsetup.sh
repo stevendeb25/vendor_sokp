@@ -1,3 +1,4 @@
 add_lunch_combo sokp_sprout-userdebug
 add_lunch_combo sokp_ghost-userdebug
 add_lunch_combo sokp_p3100-userdebug
+add_lunch_combo sokp_i9082-userdebug
