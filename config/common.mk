@@ -311,7 +311,7 @@ else
     endif
 endif
 
-SOKP_Version=RC-01-L-5.0.2-LRX22C
+SOKP_Version=RC-01-L-5.0.2-LRX22G
 SOKP_MOD_VERSION := $(SOKP_Version)-$(shell date -u +%Y%m%d)$(SOKP_EXTRAVERSION)-$(SOKP_BUILD)
  
 PRODUCT_PROPERTY_OVERRIDES += \
