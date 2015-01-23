@@ -1,10 +1,10 @@
-add_lunch_combo sokp_sprout-userdebug
 add_lunch_combo sokp_ghost-userdebug
-add_lunch_combo sokp_p3100-userdebug
+add_lunch_combo_sokp_hammerhead-userdebug
 add_lunch_combo sokp_i9082-userdebug
-add_lunch_combo_sokp_p3110-userdebug
 add_lunch_combo_sokp_i9500-userdebug
 add_lunch_combo_sokp_jflte-userdebug
 add_lunch_combo_sokp_klte-userdebug
-add_lunch_combo_sokp_hammerhead-userdebug
+add_lunch_combo sokp_p3100-userdebug
+add_lunch_combo_sokp_p3110-userdebug
 add_lunch_combo_sokp_shamu_userdebug
+add_lunch_combo sokp_sprout-userdebug
