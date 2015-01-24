@@ -174,7 +174,8 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     Eleven \
     LockClock \
-    CMAccount
+    CMAccount \
+    CyanogenSetupWizard
 
 # SOKP Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
