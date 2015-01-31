@@ -158,9 +158,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     VoicePlus \
     Basic \
-    libemoji \
-    Terminal
-
+    libemoji 
+    
 # Custom SOKP packages
 PRODUCT_PACKAGES += \
     Launcher3 \
@@ -315,7 +314,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.sokp.version=$(SOKP_VERSION) \
   ro.sokp.releasetype=$(SOKP_BUILDTYPE) \
   ro.modversion=$(SOKP_MOD_VERSION) \
-  ro.legal.url=http://epic-os.com/?page_id=28
+  ro.legal.url=http://sonic-developers.com/disclaimer/
 
 -include vendor/sokp-priv/keys/keys.mk
 
