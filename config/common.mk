@@ -144,6 +144,18 @@ PRODUCT_COPY_FILES += \
 # This is SOKP Based!
 PRODUCT_COPY_FILES += \
     vendor/sokp/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
+	
+#SOKP FIles
+PRODUCT_COPY_FILES += \
+vendor/sokp/prebuilt/app/ApexLauncher_v3.0.2.apk:system/app/Apexlauncher/ApexLauncher_v3.0.2.apk \
+vendor/sokp/prebuilt/fonts/Roboto-Bold.ttf:system/fonts/Roboto-Bold.ttf \
+vendor/sokp/prebuilt/fonts/Roboto-BoldItalic.ttf:system/fonts/Roboto-BoldItalic.ttf \
+vendor/sokp/prebuilt/fonts/Roboto-Italic.ttf:system/fonts/Roboto-Italic.ttf \
+vendor/sokp/prebuilt/fonts/Roboto-Light.ttf:system/fonts/Roboto-Light.ttf \
+vendor/sokp/prebuilt/fonts/Roboto-LightItalic.ttf:system/fonts/Roboto-LightItalic.ttf \
+vendor/sokp/prebuilt/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
+vendor/sokp/prebuilt/priv-app/SetupWizard.apk:system/priv-app/SetupWizard/SetupWizard.apk 
+	
 
 # T-Mobile theme engine
 include vendor/sokp/config/themes_common.mk
