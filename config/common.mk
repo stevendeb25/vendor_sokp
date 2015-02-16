@@ -339,11 +339,11 @@ $(call prepend-product-if-exists, vendor/extra/product.mk)
 
  # SOKP Files
 PRODUCT_COPY_FILES += \
-  vendor/sokp/prebuilt/common/apps/ApexLauncher_v3.0.2.apk:system/app/Apexlauncher/ApexLauncher_v3.0.2.apk \ 
-  vendor/sokp/prebuilt/common/fonts/Roboto-Bold.ttf:system/fonts/Roboto-Bold.ttf \
-  vendor/sokp/prebuilt/common/fonts/Roboto-BoldItalic.ttf:system/fonts/Roboto-BoldItalic.ttf \
-  vendor/sokp/prebuilt/common/fonts/Roboto-Italic.ttf:system/fonts/Roboto-Italic.ttf \
-  vendor/sokp/prebuilt/common/fonts/Roboto-Light.ttf:system/fonts/Roboto-Light.ttf \
-  vendor/sokp/prebuilt/common/fonts/Roboto-LightItalic.ttf:system/fonts/Roboto-LightItalic.ttf \
-  vendor/sokp/prebuilt/common/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
-  vendor/sokp/prebuilt/common/priv-app/SetupWizard.apk:system/priv-app/SetupWizard/SetupWizard.apk 
+  vendor/sokp/prebuilt/app/ApexLauncher_v3.0.2.apk:system/app/Apexlauncher/ApexLauncher_v3.0.2.apk \ 
+  vendor/sokp/prebuilt/fonts/Roboto-Bold.ttf:system/fonts/Roboto-Bold.ttf \
+  vendor/sokp/prebuilt/fonts/Roboto-BoldItalic.ttf:system/fonts/Roboto-BoldItalic.ttf \
+  vendor/sokp/prebuilt/fonts/Roboto-Italic.ttf:system/fonts/Roboto-Italic.ttf \
+  vendor/sokp/prebuilt/fonts/Roboto-Light.ttf:system/fonts/Roboto-Light.ttf \
+  vendor/sokp/prebuilt/fonts/Roboto-LightItalic.ttf:system/fonts/Roboto-LightItalic.ttf \
+  vendor/sokp/prebuilt/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
+  vendor/sokp/prebuilt/priv-app/SetupWizard.apk:system/priv-app/SetupWizard/SetupWizard.apk 
