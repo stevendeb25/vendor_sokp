@@ -336,3 +336,8 @@ $(call prepend-product-if-exists, vendor/extra/product.mk)
   ro.romstats.version=-$(SOKP_Version) \
   ro.romstats.askfirst=0 \
   ro.romstats.tframe=1
+
+# Inherit sabermod configs. Don't include if TARGET_ARCH isn't defined
+ifndef TARGET_ARCH
+    include vendor/sokp/config/sm.mk
+endif
