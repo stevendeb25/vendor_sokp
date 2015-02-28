@@ -8,3 +8,4 @@ add_lunch_combo sokp_p3100-userdebug
 add_lunch_combo sokp_p3110-userdebug
 add_lunch_combo sokp_shamu-userdebug
 add_lunch_combo sokp_sprout-userdebug
+add_lunch_combo sokp_ks01lte-userdebug
