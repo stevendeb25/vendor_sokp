@@ -1,3 +1,4 @@
+add_lunch_combo sokp_condor-userdebug
 add_lunch_combo sokp_ghost-userdebug
 add_lunch_combo sokp_hammerhead-userdebug
 add_lunch_combo sokp_i9082-userdebug
